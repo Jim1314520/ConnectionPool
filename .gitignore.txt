@@ -1,0 +1,36 @@
+# ========== 忽略所有非源码文件 ==========
+# Visual Studio 文件
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# 编译生成文件
+*.dll
+*.lib
+*.obj
+*.exe
+*.log
+*.tmp
+
+
+
+# Visual Studio 缓存目录
+.vs/
+x64/
+Debug/
+Release/
+
+
+
+# CMake 构建缓存（如有）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ========== 放行源文件 ==========
+!*.cpp
+!*.h
+!*/**/*.cpp
+!*/**/*.h
